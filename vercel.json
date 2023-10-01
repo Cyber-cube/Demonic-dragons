@@ -1,0 +1,6 @@
+{
+  "functions": "api/*.py",
+  "routes": [
+    { "src": "/submit", "dest": "/api/submit" }
+  ]
+}
