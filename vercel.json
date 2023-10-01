@@ -1,6 +1,17 @@
 {
   "functions": "api/*.py",
   "routes": [
-    { "src": "/submit", "dest": "/api/submit" }
+    { "src": "/register", 
+      "dest": "/api/register" },
+    { "src": "/checkaccstatus", 
+      "dest": "/api/checkaccstatus" },
+    { "src": "/login", 
+      "dest": "/api/login" },
+    { "src": "/acceptingaccpage", 
+      "dest": "/api/acceptingaccpage" },
+    { "src": "/accept", 
+      "dest": "/api/accept" },
+    { "src": "/gobackacceptpage", 
+      "dest": "/api/gobackacceptpage" }
   ]
 }
