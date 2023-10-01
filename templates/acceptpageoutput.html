@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../static/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output page</title>
+  </head>
+  <body>
+    {% if data %}
+      <h1>Output</h1>
+      <p>{{ data }}</p>
+    {% endif %}
+    <p>To go back click on the button below
+    (Wapas jane ke liye niche diye hue button ko press kijiye)</p>
+    <form method="post" action="/gobackacceptpage">
+      <input type="submit" value="Go back button">
+    </form>
+  </body>
+</html>
